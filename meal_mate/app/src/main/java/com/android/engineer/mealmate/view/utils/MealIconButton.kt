@@ -3,7 +3,6 @@ package com.android.engineer.mealmate.view.utils
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Button
@@ -61,5 +60,5 @@ fun MealIconButton(
 @Preview(showBackground = true)
 @Composable
 fun MealIconButtonPreview() {
-    MealIconButton(onClick = { /*TODO*/ }, text = stringResource(id = R.string.meal_card), icon = R.drawable.baseline_credit_card_24,)
+    MealIconButton(onClick = {  }, text = stringResource(id = R.string.meal_card), icon = R.drawable.baseline_credit_card_24,)
 }

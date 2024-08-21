@@ -45,5 +45,5 @@ fun MealFilledButton(
 @Preview(showBackground = true)
 @Composable
 fun MealFilledButtonPreview() {
-    MealFilledButton(modifier = Modifier, onClick = { /*TODO*/ }, text = stringResource(R.string.logout))
+    MealFilledButton(modifier = Modifier, onClick = { }, text = stringResource(R.string.logout))
 }

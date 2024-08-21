@@ -1,6 +1,5 @@
 package com.android.engineer.mealmate.view.utils
 
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Text
@@ -39,5 +38,5 @@ fun MealTextButton(
 @Preview(showBackground = true)
 @Composable
 fun MealTextButtonPreview() {
-    MealTextButton(onClick = { /*TODO*/ }, text = stringResource(id = R.string.sign_in), modifier = Modifier)
+    MealTextButton(onClick = { }, text = stringResource(id = R.string.sign_in), modifier = Modifier)
 }

@@ -23,25 +23,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Column(
-                Modifier
-                    .fillMaxSize()
-                    .padding(top = 64.dp),
-                verticalArrangement = Arrangement.SpaceBetween,
-                horizontalAlignment = Alignment.CenterHorizontally
-            ) {
-                MealText(modifier = Modifier,"Welcome to MealMate", 36.sp, TextAlign.Center)
-            }
-            Column(
-                Modifier
-                    .fillMaxSize()
-                    .padding(bottom = 32.dp),
-                verticalArrangement = Arrangement.Bottom,
-                horizontalAlignment = Alignment.CenterHorizontally
-            ) {
-                MealFilledButton(onClick = { /*TODO*/ }, text = stringResource(R.string.logout))
-                MealTextButton(onClick = { /*TODO*/ }, text = "SIGN IN", modifier = Modifier)
-            }
+
         }
     }
 
