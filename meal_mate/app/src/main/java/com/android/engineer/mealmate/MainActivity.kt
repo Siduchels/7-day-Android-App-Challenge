@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
                 verticalArrangement = Arrangement.SpaceBetween,
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                MealText("Welcome to MealMate", 36.sp, TextAlign.Center, modifier = Modifier)
+                MealText(modifier = Modifier,"Welcome to MealMate", 36.sp, TextAlign.Center)
             }
             Column(
                 Modifier

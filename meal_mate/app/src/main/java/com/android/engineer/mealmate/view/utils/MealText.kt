@@ -1,5 +1,6 @@
 package com.android.engineer.mealmate.view.utils
 
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -16,10 +17,10 @@ import com.android.engineer.mealmate.R
 
 @Composable
 fun MealText(
+    modifier: Modifier = Modifier,
     text: String,
     fontSize: TextUnit = 16.sp,
-    textAlign: TextAlign = TextAlign.Start,
-    modifier: Modifier = Modifier
+    textAlign: TextAlign = TextAlign.Start
 ) {
     Text(
         text = text,
@@ -38,26 +39,5 @@ fun MealText(
 @Preview(showBackground = true)
 @Composable
 fun MealTextPreview() {
-    MealText("Welcome to MealMate", 36.sp, TextAlign.Center)
+    MealText(modifier = Modifier,"Welcome to MealMate", 36.sp, TextAlign.Center)
 }
-// Using Material Design
-//@Composable
-//fun MealText(
-//    text: String,
-//    fontSize: TextUnit = 16.sp,
-//    textAlign: TextAlign = TextAlign.Start,
-//    modifier: Modifier = Modifier
-//) {
-//    val typography = MaterialTheme.typography
-//    Text(
-//        text = text,
-//        style = typography.bodyLarge.copy(
-//            fontSize = fontSize,
-//            textAlign = textAlign,
-//            fontWeight = FontWeight.Bold
-//        ),
-//        modifier = modifier
-//
-//    )
-//
-//}
