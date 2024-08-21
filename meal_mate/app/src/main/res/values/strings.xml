@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Meal Mate</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="meal_card">Meal Card</string>
+    <string name="today">Today</string>
+    <string name="weekly">Weekly</string>
+    <string name="food_preferences">Food Preferences</string>
+    <string name="logout">Logout</string>
+</resources>
